@@ -16,7 +16,7 @@
   flex-direction: column;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
-  background-position: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .nav {
@@ -75,7 +75,7 @@
 .content {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
-  background-position: cover;
+  background-position: center;
 }
 .recipes {
   padding: 100px 80px 215px;
