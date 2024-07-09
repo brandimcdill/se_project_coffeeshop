@@ -56,7 +56,7 @@
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman";
 }
-.coffeeshop_pic {
+.header__image {
   position: absolute;
   height: 568px;
   width: 646px;
@@ -110,7 +110,7 @@
   line-height: 52px;
   color: #fff;
 }
-.recipes__subtitles {
+.recipes__subtitle {
   max-width: 438px;
   font-family: "Noto Serif", "Times New Roman";
   font-size: 20px;
