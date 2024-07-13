@@ -9,6 +9,8 @@
   background-image: url(../images/background_header.svg);
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
 }
 
 .header__title {
@@ -18,7 +20,7 @@
   margin: 183px 0 0;
   letter-spacing: -0.6px;
   font-weight: 500;
-  font-family: "Inter", Arial;
+  font-family: "Inter", Arial, sans-serif;
 }
 .header__description {
   max-width: 683px;
@@ -32,7 +34,7 @@
   height: 568px;
   width: 646px;
   right: 5px;
-  margin-top: 124px;
+  top: 124px;
 }
 .header__span-accent {
   display: block;
@@ -46,7 +48,14 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: baseline;
 }
 .header__paragraph {
   margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }

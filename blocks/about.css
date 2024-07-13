@@ -1,0 +1,61 @@
+.about {
+  background-color: #0a2850;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 100px 80px 117px 80px;
+}
+
+.about__title {
+  max-width: 320px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  z-index: 2;
+  margin: 0;
+  position: relative;
+}
+.about__content {
+  font-family: "Noto Serif", "Times New Roman";
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin: 0;
+  max-width: 660px;
+  margin-top: 19px;
+}
+.about__paragraph {
+  padding-bottom: 20px;
+  margin: 0;
+}
+.about__paragraph:last-child {
+  padding-bottom: 0;
+}
+.about__circle {
+  position: absolute;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  top: -152px;
+  left: -129px;
+  background-color: #2f80ed;
+  z-index: 0;
+}
+.about__circle_animation_blurred {
+  animation: pulse 1.3s ease-in-out infinite;
+}
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+}
