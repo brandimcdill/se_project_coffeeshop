@@ -27,7 +27,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
-  font-family: "Noto Serif", "Times New Roman";
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 .header__image {
   position: absolute;
@@ -38,7 +38,7 @@
 }
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", "Times New Roman";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
-  align-items: baseline;
+  align-items: self-end;
 }
 .header__paragraph {
   margin: 0;

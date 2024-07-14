@@ -18,12 +18,12 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
-  margin: 24px 0;
+  margin: 24px 0 0;
 }
 .recipes__title {
   max-width: 580px;
   font-family: "Inter", Arial, sans-serif;
-  font-size: normal;
+  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -32,11 +32,11 @@
 }
 .recipes__subtitle {
   max-width: 438px;
-  font-family: "Noto Serif", "Times New Roman";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
-  margin: 0 0 80px;
+  margin: 24px 0 80px;
 }
 .recipes__iframe {
   width: 480px;
