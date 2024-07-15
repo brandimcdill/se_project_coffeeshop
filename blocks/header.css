@@ -21,6 +21,7 @@
   letter-spacing: -0.6px;
   font-weight: 500;
   font-family: "Inter", Arial, sans-serif;
+  z-index: 1;
 }
 .header__description {
   max-width: 683px;
@@ -28,6 +29,7 @@
   line-height: 30px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
+  z-index: 1;
 }
 .header__image {
   position: absolute;
@@ -35,6 +37,7 @@
   width: 646px;
   right: 5px;
   top: 124px;
+  z-index: 0;
 }
 .header__span-accent {
   display: block;
